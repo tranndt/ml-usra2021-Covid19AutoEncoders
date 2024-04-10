@@ -1,0 +1,15 @@
+.idea/
+.DS_Store
+__pycache__/
+
+# ignore model visualization
+*.ckpt
+*.meta
+*.index
+*.tsv
+*.pbtxt
+checkpoint
+visualization/*
+wandb/
+
+.ipynb_checkpoints
